@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("../images/wall.png");
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    background-color: rgb(15, 9, 9);
+    color: rgb(173, 7, 7);
+    border-bottom: 5px solid #ff0000;
+}
+
+.menu-lives {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-time h2:nth-child(2),
+.menu-score h2:nth-child(2) {
+    margin-top: 1rem;
+    color: #ffffff;
+}
+
+
+.menu-lives img {
+    height: 60px;
+}
+
+.painel {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.square {
+    height: 150px;
+    width: 150px;
+    border: 1px solid #000000;
+    background-color: #1aeaa5;
+}
+
+.enemy {
+    background-image: url("../images/ralph.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.redondo-1 {
+    border-radius: 5px 0px 0px 0px;
+}
+
+.redondo-2 {
+    border-radius: 0px 0px 0px 5px;
+}
+
+.redondo-3 {
+    border-radius: 0px 5px 0px 0px;
+}
+
+.redondo-4 {
+    border-radius: 0px 0px 5px 0px;
+}
